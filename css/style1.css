@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #CBE4DE;
+}
+.nav{
+    height: 8vh;
+    padding: 10px;
+    background-color: #2C3333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.nav .app-title h3{
+    color: #CBE4DE;
+    display: flex;
+    text-align: center;
+}
+.nav .app-title{
+    width: 50%;
+}
+.nav .search{
+    width: 25%;
+}
+
+.nav .search input{
+    padding: 5px;
+    border: none;
+    border-radius: 50px;
+    background-color: #CBE4DE;
+    color: #CBE4DE;
+}
+
+.nav .search i{
+    color: #CBE4DE;
+    font-size: larger;
+}
+
+.nav .menus{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav .menus a{
+    color: #CBE4DE;
+    text-decoration: none;
+    font-size: larger;
+    transition: all 600ms;
+}
+
+.nav .menus a:hover{
+    border-bottom: 2px solid #2C3333;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 50px;
+}
+.container img{
+    height: 300px;
+    width: 50%;
+    object-fit: contain;
+}
+.container p{
+    width: 50%;
+    color: #2C3333;
+    padding: 10px;
+}
+
+#whatsapp{
+    color: green;
+    font-size: 35px;
+}
+
+.icon{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: grid;
+    gap: 10px;
+}
+
+#facebook{
+    color: blue;
+    font-size: 35px;
+}
+
+#instagram{
+    color: orangered;
+    font-size: 35px;
+}
+
+#twitter{
+    color: black;
+    font-size: 35px;
+}
